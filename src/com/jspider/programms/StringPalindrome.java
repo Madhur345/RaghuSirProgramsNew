@@ -28,6 +28,7 @@ public class StringPalindrome {
 			char ch =str.charAt(i);
 			rev = rev + ch;
 		}
+		System.out.println(rev);
 		boolean fs =rev.equals(str);
 		return fs;
 	}

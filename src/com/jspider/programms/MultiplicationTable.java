@@ -12,7 +12,7 @@ public class MultiplicationTable {
 		int j =1;
 		while(j<=n){
 		for(int i=1;i<=10;i++){
-			System.out.print(j +"*" + i+" = "+j*i + " ");
+			System.out.print(j*i + " ");
 		}
 		j++;
 		System.out.println();

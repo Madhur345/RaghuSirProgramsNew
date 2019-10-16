@@ -7,14 +7,17 @@ public class Numtoword
 	static String two[]={"","","twenty","thirty","fourty","fifty","sixty","seventy","eigty","ninety"};
 	static void numToWord(int n,String st)
 	{
-		if(n<=19) 
+		if(n<=19) {
 			System.out.print(one[n]+" ");
-		else
+		}
+		else{
 			System.out.print(two[n/10]+" "+one[n%10]+" ");
+		}
 		if(n!=0)
 			System.out.print(st +" ");
 	}
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int num = sc.nextInt();

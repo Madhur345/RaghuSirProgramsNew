@@ -8,8 +8,8 @@ public class PrimeNumberRange {
 		System.out.println("Enter the number");
 		int n = sc.nextInt();
 		Prime p = new Prime();
-		System.out.println("Prime number between " + n + " is ");
-		for(int i=1;i<=n/2;i++){
+		System.out.println("Prime number between 1 to " + n + " is ");
+		for(int i=1;i<=n;i++){
 			boolean fs = p.isPrime(i);
 			if(fs){
 				System.out.print(i+" ");

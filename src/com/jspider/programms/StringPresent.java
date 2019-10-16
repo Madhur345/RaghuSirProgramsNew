@@ -27,6 +27,7 @@ public class StringPresent {
 		for(int i=0;i<c1.length;i++)
 		{
 			int j=0;
+			
 			while(j<c2.length && i<c1.length && c1[i]==c2[j])
 			{
 				i++;

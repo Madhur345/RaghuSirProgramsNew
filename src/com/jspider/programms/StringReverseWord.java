@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class StringReverseWord {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Sentence");
-		String str =sc.nextLine();
-		char ch[] =str.toCharArray();
+		System.out.println("Enter the sentence");
+		String str = sc.nextLine();
+		char ch[]=str.toCharArray();
 		String rs="";
 		for(int i=0;i<ch.length;i++)
 		{
@@ -25,7 +25,7 @@ public class StringReverseWord {
 				k--;
 			}
 			if(i<ch.length)
-				rs=rs+ch[i];
+				rs =rs+ch[i];
 		}
 		System.out.println(rs);
 	}
